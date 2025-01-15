@@ -90,35 +90,34 @@
     </header>
     <div class="container">
         <h1>Modulo di Assistenza</h1>
-        <form action="https://formspree.io/f/xkggevpq" method="POST" enctype="multipart/form-data" onsubmit="showThankYouMessage(event)">
-            <label for="name">Nome e Cognome</label>
-            <input type="text" id="name" name="name" placeholder="Inserisci il tuo nome completo" required>
+        <form action="https://formspree.io/f/xkggevpq" method="POST" enctype="multipart/form-data">
+    <label for="name">Nome e Cognome</label>
+    <input type="text" id="name" name="name" placeholder="Inserisci il tuo nome completo" required>
 
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" placeholder="Inserisci il tuo indirizzo email" required>
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" placeholder="Inserisci il tuo indirizzo email" required>
 
-            <label for="contract">Numero di Contratto</label>
-            <input type="text" id="contract" name="contract" placeholder="Inserisci il numero di contratto" required>
+    <label for="contract">Numero di Contratto</label>
+    <input type="text" id="contract" name="contract" placeholder="Inserisci il numero di contratto" required>
 
-            <label for="consultant">Nome del Consulente</label>
-            <input type="text" id="consultant" name="consultant" placeholder="Inserisci il nome del consulente" required>
+    <label for="consultant">Nome del Consulente</label>
+    <input type="text" id="consultant" name="consultant" placeholder="Inserisci il nome del consulente" required>
 
-            <label for="address">Indirizzo</label>
-            <input type="text" id="address" name="address" placeholder="Inserisci il tuo indirizzo" required>
+    <label for="address">Indirizzo</label>
+    <input type="text" id="address" name="address" placeholder="Inserisci il tuo indirizzo" required>
 
-            <label for="phone">Numero di Telefono</label>
-            <input type="tel" id="phone" name="phone" placeholder="Inserisci il tuo numero di telefono" required>
+    <label for="phone">Numero di Telefono</label>
+    <input type="tel" id="phone" name="phone" placeholder="Inserisci il tuo numero di telefono" required>
 
-            <label for="details">Dettagli della Richiesta</label>
-            <textarea id="details" name="details" rows="5" placeholder="Descrivi brevemente la tua richiesta" required></textarea>
+    <label for="details">Dettagli della Richiesta</label>
+    <textarea id="details" name="details" rows="5" placeholder="Descrivi brevemente la tua richiesta" required></textarea>
 
-            <label for="attachments">Carica Allegati (JPG)</label>
-            <input type="file" id="attachments" name="attachments" accept=".jpg" multiple>
+    <label for="attachments">Carica Allegati (JPG)</label>
+    <input type="file" id="attachments" name="attachments" accept=".jpg" multiple>
 
-            <input type="hidden" name="_subject" value="Richiesta di Assistenza">
+    <button type="submit">Invia Richiesta</button>
+</form>
 
-            <button type="submit">Invia Richiesta</button>
-        </form>
         <div class="thank-you">
             <p>Grazie per avere inviato la tua richiesta di assistenza 😊</p>
         </div>
